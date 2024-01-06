@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;1,300;1,500&display=swap');
+
+
+
+
+.navbar-collapse{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    background-color:rgb(230, 204, 255 );
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+    font-family: "lobster";
+    font: size 40px;
+}
+.img1{
+    width: 300px;
+    height:300px;
+    border-radius: 100%;
+    border: solid 3px rgb(6, 87, 42)
+}
+.cols{
+    height: 90vh;
+    display: flex;
+    align-items:center;
+}
+.name h3{
+font-size: 40px;
+font-family:"coiny"
+}
+.name p{
+    color: rgb(157, 100, 209);
+    font-weight: bold;
+    font-display: "poppins"
+
+}
+.ic i{
+color:black;
+font-size:20px;
+
+}
+.img2{
+    width: 250px;
+    height: 250px;
+    border-radius:10px;
+    border: solid 1px rgb(5, 0, 9);
+    padding: 2px;
+}
+.about-c{
+    padding: 0px 30px;
+}
+.about-c span{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h3{
+    color: rgb(157, 100, 250);
+    font-family: "coiny";
+    font-size: 30px;
+}
+.card-text{
+    font-size: 25px;
+    font-weight: bold;
+    color: blueviolet;
+
+}
+.outer{
+    width: 100%;
+}
+.wrap{
+    width:100% ;
+}
+.progress-bar{
+    background-color: rgb(157, 98, 212);
+}
+.wrap p{
+    font-family: "poppins";
+}
+.img3{
+    width: 250px;
+    height: 250px;
+}
+textarea{
+    width: 100%;
+}
+.wraper{
+    padding: 50px 60px;
+    border: solid 1px rgb(157, 100, 209);
+    border-radius: 6px;
+}
+.wraper h3{
+    margin-bottom: 20px;
+    color: blueviolet;
+}
+.footer{
+    background-color: rgb(194, 146, 238);
+    padding: 30px 0px;
+    
+}
+.footer p{
+    color: white;
+    font-size: 20px;
+}
+.footer div{
+    width: max-content;
+    margin: auto;
+}
+.f-ic{
+color: white;
+font-size: 26px;
+
+} 
+.f-ic i{
+    margin: 0px 8px;
+}
